@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '735C88D949F9ECDA7A84D79E'
+               BlueprintIdentifier = 'F4429779683DD19AF69834CBD00158F9'
                BlueprintName = 'MMProgressSwift-MMProgressSwift'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'MMProgressSwift.bundle'>

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "MMProgressSwift"
   s.version          = "0.1.0"
-  s.summary          = "A short description of MMProgressSwift."
+  s.summary          = "MMProgressSwift is a progress hud that offers a variety of UI features."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,13 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                        "MMProgress is a flexible progress hud. It was built in inspiration from KVNProgress and SVProgressHUD. You can pass in custom animations, provide a background tint, choose whether or not you want full screen, and much more. My goal with this is to create an extremely flexible, beautiful, and easy to use hud."
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MMProgressSwift"
+  s.homepage         = "https://github.com/Alarson93/mmprogressswift"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Alex Larson" => "alarson@myriadmobile.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MMProgressSwift.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Alarson93/mmprogressswift.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '9.0'
@@ -31,10 +32,10 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'MMProgressSwift' => ['Pod/Assets/*.png']
+    'MMProgressSwift' => ['Pod/Classes/**/*.{xib,png,jpeg,jpg}']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'SpinKit'
 end

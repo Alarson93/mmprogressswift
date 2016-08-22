@@ -1,21 +1,20 @@
 PODS:
-  - FBSnapshotTestCase (2.0.7):
-    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
-  - FBSnapshotTestCase/Core (2.0.7)
-  - FBSnapshotTestCase/SwiftSupport (2.0.7):
-    - FBSnapshotTestCase/Core
-  - MMProgressSwift (0.1.0)
+  - MMProgressSwift (0.1.0):
+    - SpinKit
+  - SpinKit (1.2.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - MMProgressSwift (from `../`)
+  - SpinKit
 
 EXTERNAL SOURCES:
   MMProgressSwift:
     :path: ../
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
-  MMProgressSwift: 5b433d3fb832e098549d96331f528be66f799ab1
+  MMProgressSwift: 437386f0687ecb4a44ccc061f643904aa27dea61
+  SpinKit: 65906a8b534a4e14cbfd3f8b0b6c329131faef4a
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 509c1f883c71998387f4c895ae1288cca9fb4c98
+
+COCOAPODS: 1.0.1

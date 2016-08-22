@@ -1,25 +1,30 @@
 {
   "name": "MMProgressSwift",
   "version": "0.1.0",
-  "summary": "A short description of MMProgressSwift.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MMProgressSwift",
+  "summary": "MMProgressSwift is a progress hud that offers a variety of UI features.",
+  "description": "\"MMProgress is a flexible progress hud. It was built in inspiration from KVNProgress and SVProgressHUD. You can pass in custom animations, provide a background tint, choose whether or not you want full screen, and much more. My goal with this is to create an extremely flexible, beautiful, and easy to use hud.\"",
+  "homepage": "https://github.com/Alarson93/mmprogressswift",
   "license": "MIT",
   "authors": {
     "Alex Larson": "alarson@myriadmobile.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MMProgressSwift.git",
+    "git": "https://github.com/Alarson93/mmprogressswift.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
   "resource_bundles": {
     "MMProgressSwift": [
-      "Pod/Assets/*.png"
+      "Pod/Classes/**/*.{xib,png,jpeg,jpg}"
+    ]
+  },
+  "dependencies": {
+    "SpinKit": [
+
     ]
   }
 }
