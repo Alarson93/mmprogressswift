@@ -1,0 +1,6 @@
+framework module MMProgressSwift {
+  umbrella header "MMProgressSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

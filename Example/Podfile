@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'MMProgressSwift_Example', :exclusive => true do
+  pod 'MMProgressSwift', :path => '../'
+end
+
+target 'MMProgressSwift_Tests', :exclusive => true do
+  pod 'MMProgressSwift', :path => '../'
+
+  pod 'FBSnapshotTestCase'
+end
