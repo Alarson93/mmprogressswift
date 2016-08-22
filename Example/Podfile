@@ -5,11 +5,9 @@ use_frameworks!
 target 'MMProgressSwift_Example' do
 	pod 'MMProgressSwift', :path => '../'
 	pod 'SpinKit'
-    pod 'TOMSMorphingLabel'
 end
 
 target 'MMProgressSwift_Tests' do
 	pod 'MMProgressSwift', :path => '../'
 	pod 'SpinKit'
-    pod 'TOMSMorphingLabel'
 end
