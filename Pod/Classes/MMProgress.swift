@@ -14,5 +14,10 @@ public class MMProgress : UIView {
     @IBOutlet weak var animationViewWidth: NSLayoutConstraint!
     @IBOutlet weak var animationViewHeight: NSLayoutConstraint!
     @IBOutlet weak var hudStackView: UIStackView!
+    
+    
+    @IBOutlet weak var contentView: UIView!
+    @IBOutlet weak var animationView: UIView!
+    @IBOutlet weak var statusLabel: TOMSMorphingLabel!
 }
 

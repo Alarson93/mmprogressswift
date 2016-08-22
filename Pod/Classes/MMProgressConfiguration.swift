@@ -9,10 +9,10 @@
 import Foundation
 import UIKit
 
-enum MMProgressBackgroundType: NSInteger
+public enum MMProgressBackgroundType: NSInteger
 {
-        case MMProgressBackgroundTypeBlurred,
-        case MMProgressBackgroundTypeSolid,
+    case MMProgressBackgroundTypeBlurred = 0,
+    MMProgressBackgroundTypeSolid
 }
 
 public class MMProgressConfiguration: NSObject {
@@ -28,7 +28,7 @@ public class MMProgressConfiguration: NSObject {
     public var shadowOpacity: CGFloat?
     public var shadowColor: UIColor?
     
-    public var borderEnabled: BOOL?
+    public var borderEnabled: Bool?
     public var borderWidth: CGFloat?
     public var borderColor: UIColor?
     
@@ -45,9 +45,7 @@ public class MMProgressConfiguration: NSObject {
     //Interaction
     public var tapBlock: Bool?
     
-    override func init() {
-        super.init()
-        
+    override init() {
         //Background
         backgroundColor = UIColor.clearColor()
         backgroundType = MMProgressBackgroundType.MMProgressBackgroundTypeBlurred

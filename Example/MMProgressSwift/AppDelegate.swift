@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
-    func setupKVN
+    func setupKVN()
     {
 //        MMProgressConfiguration *configuration = [[MMProgressConfiguration alloc] init];
 //        RTSpinKitView *spinner = [[RTSpinKitView alloc] initWithStyle:RTSpinKitViewStyleWave];
