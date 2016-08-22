@@ -60,6 +60,10 @@
 		D70BF9C1623CDFE4029C7A8CD3385BFB /* RTSpinKitArcAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 529B0FA046FF0544877FB7E68FD27465 /* RTSpinKitArcAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DDACE7B99CB0258BD9D3D5E913D14664 /* RTSpinKitPulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D6FD74FCB02C1FAC08FB72A92087B51A /* RTSpinKitPulseAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EAC8283F5FFA8D22E85B4D839BC1451E /* RTSpinKitPlaneAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8138C9354337184FBE6068817127CE9A /* RTSpinKitPlaneAnimation.m */; };
+		FA8D626A1D6B88ED001246B4 /* NSString+Morphing.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8D62661D6B88ED001246B4 /* NSString+Morphing.h */; };
+		FA8D626B1D6B88ED001246B4 /* NSString+Morphing.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8D62671D6B88ED001246B4 /* NSString+Morphing.m */; };
+		FA8D626C1D6B88ED001246B4 /* TOMSMorphingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8D62681D6B88ED001246B4 /* TOMSMorphingLabel.h */; };
+		FA8D626D1D6B88ED001246B4 /* TOMSMorphingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8D62691D6B88ED001246B4 /* TOMSMorphingLabel.m */; };
 		FDD17B26BEF22D50F2F11174FE3DD069 /* RTSpinKitWordPressAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F520CCCE3C388938484546DD7B2682B8 /* RTSpinKitWordPressAnimation.m */; };
 /* End PBXBuildFile section */
 
@@ -188,6 +192,10 @@
 		F6ADB1677D3C4AEB3B63F4B668EBD830 /* MMProgressSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMProgressSwift.xcconfig; sourceTree = "<group>"; };
 		F829A26D69D42CEF4DBA28AE93DDBCD2 /* Pods-MMProgressSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMProgressSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F8D62209D3B4354D406D0A693ABFC24C /* MMProgressSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMProgressSwift-umbrella.h"; sourceTree = "<group>"; };
+		FA8D62661D6B88ED001246B4 /* NSString+Morphing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Morphing.h"; sourceTree = "<group>"; };
+		FA8D62671D6B88ED001246B4 /* NSString+Morphing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Morphing.m"; sourceTree = "<group>"; };
+		FA8D62681D6B88ED001246B4 /* TOMSMorphingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOMSMorphingLabel.h; sourceTree = "<group>"; };
+		FA8D62691D6B88ED001246B4 /* TOMSMorphingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOMSMorphingLabel.m; sourceTree = "<group>"; };
 		FA94C4EB06569298CD6C6CC425493262 /* Pods-MMProgressSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMProgressSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -242,6 +250,7 @@
 				E185AA6051F3C38DA270BC21B1E01675 /* MMProgress.swift */,
 				B227546F350639F0453417990B5F6743 /* MMProgressConfiguration.swift */,
 				ED9619A0FDE7A38F5A76AC6BD5C41AF0 /* MMProgressView.xib */,
+				FA8D62651D6B88D5001246B4 /* TOMSMorphingLabel Modified */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -462,6 +471,17 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		FA8D62651D6B88D5001246B4 /* TOMSMorphingLabel Modified */ = {
+			isa = PBXGroup;
+			children = (
+				FA8D62661D6B88ED001246B4 /* NSString+Morphing.h */,
+				FA8D62671D6B88ED001246B4 /* NSString+Morphing.m */,
+				FA8D62681D6B88ED001246B4 /* TOMSMorphingLabel.h */,
+				FA8D62691D6B88ED001246B4 /* TOMSMorphingLabel.m */,
+			);
+			name = "TOMSMorphingLabel Modified";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -503,7 +523,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8D626A1D6B88ED001246B4 /* NSString+Morphing.h in Headers */,
 				CC087AD0B7B885D797B918E7BA3F1861 /* MMProgressSwift-umbrella.h in Headers */,
+				FA8D626C1D6B88ED001246B4 /* TOMSMorphingLabel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -682,6 +704,8 @@
 				5E31CC78070F315D8C9A62E25978627E /* Constants.swift in Sources */,
 				250C0D00278C9C0C5ACA7BF814421DE4 /* MMProgress.swift in Sources */,
 				172368B4767A30BD1A270D8FF2F0C1CB /* MMProgressConfiguration.swift in Sources */,
+				FA8D626D1D6B88ED001246B4 /* TOMSMorphingLabel.m in Sources */,
+				FA8D626B1D6B88ED001246B4 /* NSString+Morphing.m in Sources */,
 				31BA8711EB8BDF738DA45A3367268620 /* MMProgressSwift-dummy.m in Sources */,
 				CB47180D2A7D49658B66557132A62D80 /* MMProgressView.xib in Sources */,
 			);
