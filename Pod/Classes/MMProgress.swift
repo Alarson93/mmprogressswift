@@ -8,3 +8,11 @@
 
 import Foundation
 
+public class MMProgress : UIView {
+    
+    //Constraints
+    @IBOutlet weak var animationViewWidth: NSLayoutConstraint!
+    @IBOutlet weak var animationViewHeight: NSLayoutConstraint!
+    @IBOutlet weak var hudStackView: UIStackView!
+}
+
