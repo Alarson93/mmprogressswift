@@ -64,6 +64,7 @@
 		E1D971A97CFE5C422EEE19215D497F30 /* RTSpinKitFadingCircleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C1F866B4324177F4A583CDFCB55D1E /* RTSpinKitFadingCircleAnimation.m */; };
 		E44E327EF964E2FA346E29DB5A566CC1 /* RTSpinKitUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BD1B768AA6B4E04635F060ABBA67C6 /* RTSpinKitUtils.m */; };
 		E9A5900B9807292343B27C841B6B478B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA879ED8A0A76EB3076D47686837FFCD /* Foundation.framework */; };
+		FA0380F91D74B95000D4A2C9 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0380F81D74B95000D4A2C9 /* View.xib */; };
 		FA47DA465D3970F6F5789CA324FB3A44 /* RTSpinKitThreeBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB631AAC81BA2F822EB7B954E2DB723 /* RTSpinKitThreeBounceAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
@@ -196,6 +197,7 @@
 		F6ADB1677D3C4AEB3B63F4B668EBD830 /* MMProgressSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMProgressSwift.xcconfig; sourceTree = "<group>"; };
 		F829A26D69D42CEF4DBA28AE93DDBCD2 /* Pods-MMProgressSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMProgressSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F8D62209D3B4354D406D0A693ABFC24C /* MMProgressSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMProgressSwift-umbrella.h"; sourceTree = "<group>"; };
+		FA0380F81D74B95000D4A2C9 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		FA94C4EB06569298CD6C6CC425493262 /* Pods-MMProgressSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMProgressSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -418,6 +420,7 @@
 				4EAD0A271A1A823A7FC664E512FABF25 /* MMProgressConfiguration.swift */,
 				C116A333FEDBDA142DBE1F71BEE9BBBF /* MMProgressView.xib */,
 				B69DB0CFF84DBB6FFCF5639472E6BD59 /* TOMSMorphingLabel Modified */,
+				FA0380F81D74B95000D4A2C9 /* View.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -667,6 +670,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA0380F91D74B95000D4A2C9 /* View.xib in Resources */,
 				08D67EFC4CA381A83F49612A33B025FE /* MMProgressSwift.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
