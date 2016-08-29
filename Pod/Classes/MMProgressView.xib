@@ -91,6 +91,8 @@
                 <outlet property="animationView" destination="LKw-Qg-3ct" id="THD-XS-Bx0"/>
                 <outlet property="animationViewHeight" destination="6NH-xe-yAk" id="Jm9-iS-JdQ"/>
                 <outlet property="animationViewWidth" destination="ezV-Fs-jgM" id="AtQ-Lu-vsY"/>
+                <outlet property="backgroundColorView" destination="ejM-Cr-JPp" id="dMI-sg-aIZ"/>
+                <outlet property="backgroundEffectView" destination="5JJ-BW-fUr" id="YXu-Gx-DCZ"/>
                 <outlet property="contentView" destination="D9J-VF-Ege" id="2GS-TJ-0g9"/>
                 <outlet property="hudStackView" destination="ojc-g6-XMX" id="blC-Ne-Oav"/>
                 <outlet property="statusLabel" destination="xhv-0g-BHj" id="vhj-ST-o1h"/>

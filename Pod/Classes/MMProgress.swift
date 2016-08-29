@@ -35,8 +35,7 @@ public extension MMProgress {
         var token: dispatch_once_t = 0
         
         dispatch_once(&token) {
-            let nib = NSBundle.mainBundle().loadNibNamed("View", owner: self, options: nil)
-            sharedView = UINib(nibName: "MMProgressView", bundle: nil).instantiateWithOwner(self, options: nil)[0] as! MMProgress
+            sharedView = NSBundle.podBundle().loadNibNamed("MMProgressView", owner: self, options: nil).first as? MMProgress
         }
         
         return sharedView

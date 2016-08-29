@@ -7,37 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05367474583EF074F444DA81A24DD668 /* MMProgressConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FBEADBA84030E48CFEE9775DC8E2D /* MMProgressConfiguration.swift */; };
-		05BF19864FBC642BB12414D738323EAF /* NSString+Morphing.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FE0C12EC167D3BB2B59BAC694108BE3 /* NSString+Morphing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04459F6D5FDB308E4405F282D6C8D842 /* MMProgressView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 64EAA0311CAC800C53D355A22EB93370 /* MMProgressView.xib */; };
+		05BF19864FBC642BB12414D738323EAF /* NSString+Morphing.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C0CEDD3ADD5BDFEADA7346A60F06028 /* NSString+Morphing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		098265F7DE830B2E93A628BACE987329 /* RTSpinKit9CubeGridAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEB9BA69AD0DC695D94E011CC74A05D /* RTSpinKit9CubeGridAnimation.m */; };
 		0FF57545DB4970A46C6DB25DD076DC8B /* Pods-MMProgressSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C66DB7625A873774A758E79D9BCFDC /* Pods-MMProgressSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C1CA9283B33C0650CC8EC5083796100 /* MMProgressSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E76D1DD995054A3C6D4736838914EC2 /* MMProgressSwift-dummy.m */; };
+		17EE4E50087A67322313AC51845B4D2F /* MMProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64EAA0311CAC800C53D355A22EB93370 /* MMProgressView.xib */; };
 		2128419F19B695DCE2B83054DB99BF8E /* RTSpinKitUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 81AB37091D8BED722A0FDE52C43E6A38 /* RTSpinKitUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		23744CC60993D330BE505BBCA04E00B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA879ED8A0A76EB3076D47686837FFCD /* Foundation.framework */; };
 		289EDC095D715DF8E05597D40BC3FEDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA879ED8A0A76EB3076D47686837FFCD /* Foundation.framework */; };
-		2AE71B7642EEB2E8AB6D4F946615509A /* MMProgressView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 0F19B6A52FD84F77E51B8ADE698D4EB3 /* MMProgressView.xib */; };
 		2DBE8E8E9B90582A5607487068901D6C /* RTSpinKitArcAltAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5162623727741C22A710FC553E6F8D94 /* RTSpinKitArcAltAnimation.m */; };
 		32149356F907D3B3D5CA64E99144FBDD /* RTSpinKitAnimating.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB845C80E2089F1BEAD1DDFD322F03F /* RTSpinKitAnimating.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3611293CB34ECF2CC4BFC1D5C11F41FC /* RTSpinKitCircleFlipAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE3784A6B0E11661A6B58B4DDD1CC77 /* RTSpinKitCircleFlipAnimation.m */; };
 		3B5C719DC2D3C0DF6F2B0ED29A2D3B44 /* RTSpinKitFadingCircleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C1F866B4324177F4A583CDFCB55D1E /* RTSpinKitFadingCircleAnimation.m */; };
-		3BDC02F8911E710F40CB774AC0D5E3E6 /* NSString+Morphing.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D0C5125955D566B879F2E4417E5E7D /* NSString+Morphing.m */; };
 		3C4C2499C171251F60C0CC12A90FB78D /* RTSpinKitFadingCircleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = BE6142820B58760A6053351CAA178034 /* RTSpinKitFadingCircleAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3D2543759CF65C46B12DE83FA3835812 /* RTSpinKitFadingCircleAltAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3B0450799903ABB4AF75526DB1ABD8 /* RTSpinKitFadingCircleAltAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3D78FEB0169CBDC8A7F1ABB0C5DE443C /* Pods-MMProgressSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B29C9DAA3E914C83488A8FEC10311B0A /* Pods-MMProgressSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4364619D21A2F13155CBE65E0AA35280 /* RTSpinKitPlaneAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C98CBF348F713FBCBBF9FB02D243BF06 /* RTSpinKitPlaneAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		47F2CE0D6564CB512E5E1D9997D91976 /* NSString+Morphing.m in Sources */ = {isa = PBXBuildFile; fileRef = ED357428E88D26CBC03008B54AA92491 /* NSString+Morphing.m */; };
 		52CE690812EA99713D8CD6B1FE7D1206 /* RTSpinKitPulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D6FD74FCB02C1FAC08FB72A92087B51A /* RTSpinKitPulseAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		52D5E83575B57BB988CB7BBF694F1F3C /* RTSpinKitFadingCircleAltAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8017AA5C2F1CF2FC4147CD0CB56AF2FC /* RTSpinKitFadingCircleAltAnimation.m */; };
 		535FC5981A6908FFD420310495A3782E /* MMProgressSwift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 46F862B867C6F64569EB2B71DD000178 /* MMProgressSwift.bundle */; };
-		55747FD3A4765EF64DDEF3CA8E48CF83 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D97422E0F797D1DDC6BB7174E53C4BF /* Constants.swift */; };
 		5C1FEB9032A41C5E6C591C0F35F3885B /* RTSpinKitChasingDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 705ECC03F6D617019527AE8A9034554C /* RTSpinKitChasingDotsAnimation.m */; };
 		6C3827065BBDC02DFE9F4A4B07BA82FF /* RTSpinKitWordPressAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F520CCCE3C388938484546DD7B2682B8 /* RTSpinKitWordPressAnimation.m */; };
 		7335430F1BC21109E784C49F6F227AA0 /* MMProgressSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D62209D3B4354D406D0A693ABFC24C /* MMProgressSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		745D7D653CF5A9EF92EF59F604AE4992 /* RTSpinKitBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 241708DA2B2E331B787F737CDF22761B /* RTSpinKitBounceAnimation.m */; };
 		7596BC0B48A71330ABE12C6E09087B0D /* RTSpinKitUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BD1B768AA6B4E04635F060ABBA67C6 /* RTSpinKitUtils.m */; };
 		7BEAAEEF2F215CCA9A924F645946D981 /* SpinKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F7A7E5E8AD66A8CCE12B7DE80E7E0A /* SpinKit-dummy.m */; };
+		7DEECEE403240823AD8DB2D40ACE28C8 /* MMProgressConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6695D5A5F6776DD2D131B2E0DB1150 /* MMProgressConfiguration.swift */; };
 		86AE0C4781AF2F16D7C779DCB34C41CC /* RTSpinKitArcAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 529B0FA046FF0544877FB7E68FD27465 /* RTSpinKitArcAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		86C8EC6F7CF695B020C5B90BBA3DC86C /* RTSpinKitCircleFlipAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A7E3B8543424BD18BFB9DA28BC357FB0 /* RTSpinKitCircleFlipAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		88E2755D46EABDAA5185BB0B96B53D4D /* RTSpinKitThreeBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E1340EBDB5790B5197819145A8B904AC /* RTSpinKitThreeBounceAnimation.m */; };
+		8CA6480C8D886649C836307C7F2D4409 /* TOMSMorphingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B79515824C5820DC96F96E5C597195A /* TOMSMorphingLabel.m */; };
 		8CB4B20FDA306534684335BA8EF3C977 /* RTSpinKitWanderingCubesAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = DCFBA5D722769C3BBD9122359148DBD5 /* RTSpinKitWanderingCubesAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8E83C2959C24A6F3179CBEFBF06CC3F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA879ED8A0A76EB3076D47686837FFCD /* Foundation.framework */; };
 		9069715DCE00D1181924ACA7F6069322 /* RTSpinKitWanderingCubesAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E97E66E03A97F0FF81C543C240CF204 /* RTSpinKitWanderingCubesAnimation.m */; };
@@ -45,25 +45,24 @@
 		9549330AE1218F97E6B861678DF1E783 /* RTSpinKitThreeBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB631AAC81BA2F822EB7B954E2DB723 /* RTSpinKitThreeBounceAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A8256989ACD8C6362DF47C2C2DCB98BF /* SpinKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1BAD6F954DF0ACE5A8C20E21C34684 /* SpinKit.framework */; };
 		B04D5F53F60058103E88EA15B31A3D0D /* RTSpinKitBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB0621552473009E31023512F09A0AA /* RTSpinKitBounceAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B25272E84112DBEBFF84A33BD55A0A5D /* MMProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F19B6A52FD84F77E51B8ADE698D4EB3 /* MMProgressView.xib */; };
 		B2AA912DC11E0F6E0C88DB67CF4E7E0C /* RTSpinKitWaveAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = DE22BF02349D11B41951317436D6FA41 /* RTSpinKitWaveAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B5DCBD7181AC2F125E431C93CACD937E /* SpinKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F14A8E0B3772C19B4445B5FAF3C7FCB /* SpinKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5FA4B940C686850661F044F3F5F261E /* RTSpinKit9CubeGridAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F4C9B0F1B825C4EEFAC6D91F41DAB8 /* RTSpinKit9CubeGridAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BAFB07085CF2481703BF121E21CF1E24 /* Pods-MMProgressSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C0C8F2275C278BC1FA2D368F2CDDB5 /* Pods-MMProgressSwift_Example-dummy.m */; };
 		BD7B28D0D5BFDD3ABA925B814DF38603 /* RTSpinKitPlaneAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8138C9354337184FBE6068817127CE9A /* RTSpinKitPlaneAnimation.m */; };
-		C7B514E6F97403771D57E53A6FEE69B3 /* MMProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AA52EEBECEE1F3FBCDCCABF2E773E8 /* MMProgress.swift */; };
+		BFBABB65216D8FE96BFD5A910C56C790 /* MMProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CFA6B51C4F1AFB8073FDE02054A314 /* MMProgress.swift */; };
 		C7C3A7BA6EE73222F1F26524BA9562DD /* RTSpinKitChasingDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 19086586A63C76A1B8708872DA488418 /* RTSpinKitChasingDotsAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C8E66A27954FBB425CD5F30FA828CD7A /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = E51B0709D1C7274AAE2379BB3D3D0840 /* View.xib */; };
 		CAFA969C87478FB8B3B98E7594DFBE28 /* Pods-MMProgressSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE5842AF9D294A6C5A98C6E57D67F66 /* Pods-MMProgressSwift_Tests-dummy.m */; };
 		CC0C146AE091905CD0EC2766E416D5B6 /* RTSpinKitCircleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E884EEDAD9A40DDAC80BA5DD2F76012 /* RTSpinKitCircleAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D0614E2C17C0C3F70348BBD1A4CF4D45 /* RTSpinKitCircleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FE24910D3CA3A02BBF49636E6587A8 /* RTSpinKitCircleAnimation.m */; };
 		D1C6D5AEE0F4A57CAF8309252AD14881 /* RTSpinKitArcAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DA9027B23D0AB93AB528A2189DA973 /* RTSpinKitArcAnimation.m */; };
-		D793AFD5FB02B2FA2F8F76DA69597527 /* TOMSMorphingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 724248337DDDBBABEC5E7E9F3BEF5770 /* TOMSMorphingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D793AFD5FB02B2FA2F8F76DA69597527 /* TOMSMorphingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D72F8EBDF96F5A4B9C7A3302A79079 /* TOMSMorphingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA89CA3A408C5937819BBD69054D8FCA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F0C05DF0A6352DDE7E2806E1AEE574 /* Constants.swift */; };
 		E20A7BD957EC410D054AAEC691C3D411 /* RTSpinKitArcAltAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 596904FA696F8D52F25D655EDC67C9A9 /* RTSpinKitArcAltAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E7253CBD0DAEE7A63553A8E1EC087E89 /* View.xib in Sources */ = {isa = PBXBuildFile; fileRef = E51B0709D1C7274AAE2379BB3D3D0840 /* View.xib */; };
+		E28A24EBF5E699929A49E0006ACED06A /* NSBundle+MMProgressSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C973560928E2AE601099D05F994458 /* NSBundle+MMProgressSwift.swift */; };
 		E8741C923339D4470A824A538FCDEA55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA879ED8A0A76EB3076D47686837FFCD /* Foundation.framework */; };
 		EA2DAB60E5FCFA60A59219C9797ED80C /* RTSpinKitWordPressAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADBAA36F3DDDF984796C1A214D8F649 /* RTSpinKitWordPressAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EE35264AD3D75C76E76CFD22178B73D4 /* TOMSMorphingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E45581F0262C1747D96061AA75D8FD /* TOMSMorphingLabel.m */; };
+		F01E00E3DE988139CB3144C62ED1C44E /* MMProgressSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E76D1DD995054A3C6D4736838914EC2 /* MMProgressSwift-dummy.m */; };
 		F2694D3AD663E721AB534C313E7D21F9 /* RTSpinKitView.h in Headers */ = {isa = PBXBuildFile; fileRef = D264DD2764DF52A26FBEE5955C2F3916 /* RTSpinKitView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2B520B1BD63B39902423BD86BA8B35E /* RTSpinKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = C60301188DAD76A87E100229AB9AF493 /* RTSpinKitView.m */; };
 		FD17B5B67308178FA397D4B63C4E8D6C /* RTSpinKitPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB9BA982D18BF3F4C96BA227D8E947 /* RTSpinKitPulseAnimation.m */; };
@@ -122,36 +121,31 @@
 		0DEB9BA69AD0DC695D94E011CC74A05D /* RTSpinKit9CubeGridAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKit9CubeGridAnimation.m; path = SpinKit/Animations/RTSpinKit9CubeGridAnimation.m; sourceTree = "<group>"; };
 		0E3B0556DF155E72274C79F0AB9DDF91 /* Pods-MMProgressSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMProgressSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0E884EEDAD9A40DDAC80BA5DD2F76012 /* RTSpinKitCircleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitCircleAnimation.h; path = SpinKit/Animations/RTSpinKitCircleAnimation.h; sourceTree = "<group>"; };
-		0F19B6A52FD84F77E51B8ADE698D4EB3 /* MMProgressView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MMProgressView.xib; sourceTree = "<group>"; };
 		0FB60896BDB2035BC45E984EE009B83C /* MMProgressSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMProgressSwift-prefix.pch"; sourceTree = "<group>"; };
-		0FE0C12EC167D3BB2B59BAC694108BE3 /* NSString+Morphing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Morphing.h"; sourceTree = "<group>"; };
 		10FE24910D3CA3A02BBF49636E6587A8 /* RTSpinKitCircleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitCircleAnimation.m; path = SpinKit/Animations/RTSpinKitCircleAnimation.m; sourceTree = "<group>"; };
 		16041316797FE8A8FB380633A97F764C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19086586A63C76A1B8708872DA488418 /* RTSpinKitChasingDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitChasingDotsAnimation.h; path = SpinKit/Animations/RTSpinKitChasingDotsAnimation.h; sourceTree = "<group>"; };
-		19AA52EEBECEE1F3FBCDCCABF2E773E8 /* MMProgress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMProgress.swift; sourceTree = "<group>"; };
 		1C257CA50B1B8A0E22EAFF2C84C93B29 /* Pods_MMProgressSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMProgressSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C1F866B4324177F4A583CDFCB55D1E /* RTSpinKitFadingCircleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitFadingCircleAnimation.m; path = SpinKit/Animations/RTSpinKitFadingCircleAnimation.m; sourceTree = "<group>"; };
 		241708DA2B2E331B787F737CDF22761B /* RTSpinKitBounceAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitBounceAnimation.m; path = SpinKit/Animations/RTSpinKitBounceAnimation.m; sourceTree = "<group>"; };
 		24D7DA9B9ED620548546688B6FC2B5F1 /* Pods-MMProgressSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMProgressSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2D97422E0F797D1DDC6BB7174E53C4BF /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2E76D1DD995054A3C6D4736838914EC2 /* MMProgressSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMProgressSwift-dummy.m"; sourceTree = "<group>"; };
 		2FB631AAC81BA2F822EB7B954E2DB723 /* RTSpinKitThreeBounceAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitThreeBounceAnimation.h; path = SpinKit/Animations/RTSpinKitThreeBounceAnimation.h; sourceTree = "<group>"; };
 		31DA9027B23D0AB93AB528A2189DA973 /* RTSpinKitArcAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitArcAnimation.m; path = SpinKit/Animations/RTSpinKitArcAnimation.m; sourceTree = "<group>"; };
 		35A05261BD7AB8A2DEFADF660F98DE45 /* Pods-MMProgressSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMProgressSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D1BAD6F954DF0ACE5A8C20E21C34684 /* SpinKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpinKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F9FBEADBA84030E48CFEE9775DC8E2D /* MMProgressConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMProgressConfiguration.swift; sourceTree = "<group>"; };
 		3FE3784A6B0E11661A6B58B4DDD1CC77 /* RTSpinKitCircleFlipAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitCircleFlipAnimation.m; path = SpinKit/Animations/RTSpinKitCircleFlipAnimation.m; sourceTree = "<group>"; };
-		46E45581F0262C1747D96061AA75D8FD /* TOMSMorphingLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOMSMorphingLabel.m; sourceTree = "<group>"; };
 		46F862B867C6F64569EB2B71DD000178 /* MMProgressSwift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMProgressSwift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FCB698AFDAC171292C04A7E9B9031F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5162623727741C22A710FC553E6F8D94 /* RTSpinKitArcAltAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitArcAltAnimation.m; path = SpinKit/Animations/RTSpinKitArcAltAnimation.m; sourceTree = "<group>"; };
 		51F7A7E5E8AD66A8CCE12B7DE80E7E0A /* SpinKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpinKit-dummy.m"; sourceTree = "<group>"; };
 		529B0FA046FF0544877FB7E68FD27465 /* RTSpinKitArcAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitArcAnimation.h; path = SpinKit/Animations/RTSpinKitArcAnimation.h; sourceTree = "<group>"; };
 		596904FA696F8D52F25D655EDC67C9A9 /* RTSpinKitArcAltAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitArcAltAnimation.h; path = SpinKit/Animations/RTSpinKitArcAltAnimation.h; sourceTree = "<group>"; };
+		64EAA0311CAC800C53D355A22EB93370 /* MMProgressView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MMProgressView.xib; sourceTree = "<group>"; };
+		66D72F8EBDF96F5A4B9C7A3302A79079 /* TOMSMorphingLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOMSMorphingLabel.h; sourceTree = "<group>"; };
 		686D45AAB033CE72189A0B1D1BB8CD0B /* Pods-MMProgressSwift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMProgressSwift_Tests-resources.sh"; sourceTree = "<group>"; };
 		6ADBAA36F3DDDF984796C1A214D8F649 /* RTSpinKitWordPressAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitWordPressAnimation.h; path = SpinKit/Animations/RTSpinKitWordPressAnimation.h; sourceTree = "<group>"; };
 		705ECC03F6D617019527AE8A9034554C /* RTSpinKitChasingDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitChasingDotsAnimation.m; path = SpinKit/Animations/RTSpinKitChasingDotsAnimation.m; sourceTree = "<group>"; };
-		724248337DDDBBABEC5E7E9F3BEF5770 /* TOMSMorphingLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOMSMorphingLabel.h; sourceTree = "<group>"; };
 		770583B61DE37C90D95E9EB831E4C6FF /* Pods-MMProgressSwift_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMProgressSwift_Example-resources.sh"; sourceTree = "<group>"; };
 		7D69F1F7026C5D55688A9E15D9E911E9 /* Pods-MMProgressSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MMProgressSwift_Example.modulemap"; sourceTree = "<group>"; };
 		8017AA5C2F1CF2FC4147CD0CB56AF2FC /* RTSpinKitFadingCircleAltAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitFadingCircleAltAnimation.m; path = SpinKit/Animations/RTSpinKitFadingCircleAltAnimation.m; sourceTree = "<group>"; };
@@ -159,13 +153,14 @@
 		81AB37091D8BED722A0FDE52C43E6A38 /* RTSpinKitUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitUtils.h; path = SpinKit/RTSpinKitUtils.h; sourceTree = "<group>"; };
 		83459C4E2EFFD91C8E30F6977B300885 /* ResourceBundle-MMProgressSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MMProgressSwift-Info.plist"; sourceTree = "<group>"; };
 		89C66DB7625A873774A758E79D9BCFDC /* Pods-MMProgressSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMProgressSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		8B79515824C5820DC96F96E5C597195A /* TOMSMorphingLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOMSMorphingLabel.m; sourceTree = "<group>"; };
+		8C0CEDD3ADD5BDFEADA7346A60F06028 /* NSString+Morphing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Morphing.h"; sourceTree = "<group>"; };
 		8FB845C80E2089F1BEAD1DDFD322F03F /* RTSpinKitAnimating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitAnimating.h; path = SpinKit/RTSpinKitAnimating.h; sourceTree = "<group>"; };
 		90014EF60A97A13B0B7BDF032F7ADC7E /* Pods-MMProgressSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MMProgressSwift_Tests.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94E3E0144E0F31DB6138F09DD43DA6AD /* RTSpinKitWaveAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitWaveAnimation.m; path = SpinKit/Animations/RTSpinKitWaveAnimation.m; sourceTree = "<group>"; };
 		9E97E66E03A97F0FF81C543C240CF204 /* RTSpinKitWanderingCubesAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitWanderingCubesAnimation.m; path = SpinKit/Animations/RTSpinKitWanderingCubesAnimation.m; sourceTree = "<group>"; };
 		9F14A8E0B3772C19B4445B5FAF3C7FCB /* SpinKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpinKit-umbrella.h"; sourceTree = "<group>"; };
-		A2D0C5125955D566B879F2E4417E5E7D /* NSString+Morphing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Morphing.m"; sourceTree = "<group>"; };
 		A7BD1B768AA6B4E04635F060ABBA67C6 /* RTSpinKitUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitUtils.m; path = SpinKit/RTSpinKitUtils.m; sourceTree = "<group>"; };
 		A7E3B8543424BD18BFB9DA28BC357FB0 /* RTSpinKitCircleFlipAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitCircleFlipAnimation.h; path = SpinKit/Animations/RTSpinKitCircleFlipAnimation.h; sourceTree = "<group>"; };
 		ACAC9BD05E8BB6281721DB38FC2B91B8 /* MMProgressSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMProgressSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -192,14 +187,18 @@
 		E1340EBDB5790B5197819145A8B904AC /* RTSpinKitThreeBounceAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitThreeBounceAnimation.m; path = SpinKit/Animations/RTSpinKitThreeBounceAnimation.m; sourceTree = "<group>"; };
 		E27C89C1D8EA6DAC9DF7EEFBE103F06C /* Pods-MMProgressSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMProgressSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E48DCC26561A7F9E08DC90059A4ADDBF /* Pods-MMProgressSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMProgressSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E51B0709D1C7274AAE2379BB3D3D0840 /* View.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		E4F0C05DF0A6352DDE7E2806E1AEE574 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E9C973560928E2AE601099D05F994458 /* NSBundle+MMProgressSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSBundle+MMProgressSwift.swift"; sourceTree = "<group>"; };
+		ED357428E88D26CBC03008B54AA92491 /* NSString+Morphing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Morphing.m"; sourceTree = "<group>"; };
 		EDD646D5E6BE49E2FC37DBCC7A5A9D03 /* MMProgressSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MMProgressSwift.modulemap; sourceTree = "<group>"; };
 		EE9BDE4728DC325136A1E4D44CFE6739 /* Pods_MMProgressSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMProgressSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2CFA6B51C4F1AFB8073FDE02054A314 /* MMProgress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMProgress.swift; sourceTree = "<group>"; };
 		F520CCCE3C388938484546DD7B2682B8 /* RTSpinKitWordPressAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitWordPressAnimation.m; path = SpinKit/Animations/RTSpinKitWordPressAnimation.m; sourceTree = "<group>"; };
 		F6ADB1677D3C4AEB3B63F4B668EBD830 /* MMProgressSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMProgressSwift.xcconfig; sourceTree = "<group>"; };
 		F829A26D69D42CEF4DBA28AE93DDBCD2 /* Pods-MMProgressSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMProgressSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F8D62209D3B4354D406D0A693ABFC24C /* MMProgressSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMProgressSwift-umbrella.h"; sourceTree = "<group>"; };
 		FA94C4EB06569298CD6C6CC425493262 /* Pods-MMProgressSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMProgressSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF6695D5A5F6776DD2D131B2E0DB1150 /* MMProgressConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMProgressConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,17 +245,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17B38ABA2DDF902A488775866E290A0D /* Classes */ = {
+		18BBFB08F1F69297133F0A0929478108 /* TOMSMorphingLabel Modified */ = {
 			isa = PBXGroup;
 			children = (
-				2D97422E0F797D1DDC6BB7174E53C4BF /* Constants.swift */,
-				19AA52EEBECEE1F3FBCDCCABF2E773E8 /* MMProgress.swift */,
-				3F9FBEADBA84030E48CFEE9775DC8E2D /* MMProgressConfiguration.swift */,
-				0F19B6A52FD84F77E51B8ADE698D4EB3 /* MMProgressView.xib */,
-				E51B0709D1C7274AAE2379BB3D3D0840 /* View.xib */,
-				B945BFF2F5D5024509AEA4304D5B7C62 /* TOMSMorphingLabel Modified */,
+				8C0CEDD3ADD5BDFEADA7346A60F06028 /* NSString+Morphing.h */,
+				ED357428E88D26CBC03008B54AA92491 /* NSString+Morphing.m */,
+				66D72F8EBDF96F5A4B9C7A3302A79079 /* TOMSMorphingLabel.h */,
+				8B79515824C5820DC96F96E5C597195A /* TOMSMorphingLabel.m */,
 			);
-			path = Classes;
+			path = "TOMSMorphingLabel Modified";
 			sourceTree = "<group>";
 		};
 		1CE54A04BB0E824455503E7B22FF5BC3 /* Resources */ = {
@@ -282,6 +279,19 @@
 				7A959C26490E89CF73208DD90D01FCA6 /* Pods-MMProgressSwift_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3385BA26046CD3742A6573E13108A7F7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E4F0C05DF0A6352DDE7E2806E1AEE574 /* Constants.swift */,
+				F2CFA6B51C4F1AFB8073FDE02054A314 /* MMProgress.swift */,
+				FF6695D5A5F6776DD2D131B2E0DB1150 /* MMProgressConfiguration.swift */,
+				64EAA0311CAC800C53D355A22EB93370 /* MMProgressView.xib */,
+				E9C973560928E2AE601099D05F994458 /* NSBundle+MMProgressSwift.swift */,
+				18BBFB08F1F69297133F0A0929478108 /* TOMSMorphingLabel Modified */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		36F4AD80061F8A3CE9F1E53A44B3FFC9 /* SpinKit */ = {
@@ -456,21 +466,10 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		B945BFF2F5D5024509AEA4304D5B7C62 /* TOMSMorphingLabel Modified */ = {
-			isa = PBXGroup;
-			children = (
-				0FE0C12EC167D3BB2B59BAC694108BE3 /* NSString+Morphing.h */,
-				A2D0C5125955D566B879F2E4417E5E7D /* NSString+Morphing.m */,
-				724248337DDDBBABEC5E7E9F3BEF5770 /* TOMSMorphingLabel.h */,
-				46E45581F0262C1747D96061AA75D8FD /* TOMSMorphingLabel.m */,
-			);
-			path = "TOMSMorphingLabel Modified";
-			sourceTree = "<group>";
-		};
 		CFB28796CD388C1AEB4D21AA4FF24982 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				17B38ABA2DDF902A488775866E290A0D /* Classes */,
+				3385BA26046CD3742A6573E13108A7F7 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -586,7 +585,7 @@
 			buildPhases = (
 				C7EC66506C3848FBB373D5B11C094B31 /* Sources */,
 				770EE75D12241FEDB3DAA47728ACCFEF /* Frameworks */,
-				157BBA7FC68B2E7619A68563A7AA6935 /* Resources */,
+				FE934AC29AEF750F04F34DB38F7846CB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -620,7 +619,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7FC2E2488AE39EEB8529F57A3FD6DE6 /* Build configuration list for PBXNativeTarget "MMProgressSwift" */;
 			buildPhases = (
-				607BCE62D7B97C9D4C1CFBCE0FD37BB9 /* Sources */,
+				DB934E8869699985001B255B291738BE /* Sources */,
 				680915CF7E646D2FF800EB87F3BDEB4E /* Frameworks */,
 				A1F16821ACFBE2D3D5FC6047B29BFA22 /* Resources */,
 				E4AAADB6123E64FDC9508FFA55B427E4 /* Headers */,
@@ -667,20 +666,19 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		157BBA7FC68B2E7619A68563A7AA6935 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B25272E84112DBEBFF84A33BD55A0A5D /* MMProgressView.xib in Resources */,
-				C8E66A27954FBB425CD5F30FA828CD7A /* View.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A1F16821ACFBE2D3D5FC6047B29BFA22 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				535FC5981A6908FFD420310495A3782E /* MMProgressSwift.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE934AC29AEF750F04F34DB38F7846CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EE4E50087A67322313AC51845B4D2F /* MMProgressView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,21 +690,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAFB07085CF2481703BF121E21CF1E24 /* Pods-MMProgressSwift_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607BCE62D7B97C9D4C1CFBCE0FD37BB9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55747FD3A4765EF64DDEF3CA8E48CF83 /* Constants.swift in Sources */,
-				C7B514E6F97403771D57E53A6FEE69B3 /* MMProgress.swift in Sources */,
-				05367474583EF074F444DA81A24DD668 /* MMProgressConfiguration.swift in Sources */,
-				1C1CA9283B33C0650CC8EC5083796100 /* MMProgressSwift-dummy.m in Sources */,
-				2AE71B7642EEB2E8AB6D4F946615509A /* MMProgressView.xib in Sources */,
-				3BDC02F8911E710F40CB774AC0D5E3E6 /* NSString+Morphing.m in Sources */,
-				EE35264AD3D75C76E76CFD22178B73D4 /* TOMSMorphingLabel.m in Sources */,
-				E7253CBD0DAEE7A63553A8E1EC087E89 /* View.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -739,6 +722,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB934E8869699985001B255B291738BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA89CA3A408C5937819BBD69054D8FCA /* Constants.swift in Sources */,
+				BFBABB65216D8FE96BFD5A910C56C790 /* MMProgress.swift in Sources */,
+				7DEECEE403240823AD8DB2D40ACE28C8 /* MMProgressConfiguration.swift in Sources */,
+				F01E00E3DE988139CB3144C62ED1C44E /* MMProgressSwift-dummy.m in Sources */,
+				04459F6D5FDB308E4405F282D6C8D842 /* MMProgressView.xib in Sources */,
+				E28A24EBF5E699929A49E0006ACED06A /* NSBundle+MMProgressSwift.swift in Sources */,
+				47F2CE0D6564CB512E5E1D9997D91976 /* NSString+Morphing.m in Sources */,
+				8CA6480C8D886649C836307C7F2D4409 /* TOMSMorphingLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
